@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "my.microservices.kafkastream.consumer"
+    },
+    "jhipsterVersion": "5.0.0-beta.1",
+    "baseName": "consumer",
+    "packageName": "my.microservices.kafkastream.consumer",
+    "packageFolder": "my/microservices/kafkastream/consumer",
+    "serverPort": "8882",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "e7b8fe9007b7fb010e0b5840d46d1f2b80d1ca80",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
