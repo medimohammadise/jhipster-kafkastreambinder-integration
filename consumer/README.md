@@ -5,9 +5,10 @@ I'm trying to integrate Kafka Streams Binder with Jhipster.
 ## Configurations 
 
 ### class configurations for consumer channel
-In the my.microservices.kafkastream.consumer.service.messaging package I have ConsumerChannel interface  and NewReviewPublishedEvent class
-I am willing to receive message hear in the class ConsumerService but It is not working
-In my.microservices.kafkastream.consumer.config.MessagingConfiguration I have configured ConsumerChannel in EnableBinding section
+In the my.microservices.kafkastream.consumer.service.messaging package.
+I have ConsumerChannel interface  and NewReviewPublishedEvent class.
+I am willing to receive message hear in the class ConsumerService but It is not working!
+In my.microservices.kafkastream.consumer.config.MessagingConfiguration I have configured ConsumerChannel in EnableBinding section.
 
 ### yaml file configurations
    resources/config/application-dev.yml
