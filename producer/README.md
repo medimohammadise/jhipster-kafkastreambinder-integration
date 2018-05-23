@@ -11,7 +11,8 @@ In my.microservices.kafkastream.producer.config.MessagingConfiguration I have co
 
 ### yaml file configurations
 in recource/config/application-dev.yml file :
-cloud:
+
+    cloud:
            stream:
                kafka:
                    binder:
@@ -26,8 +27,11 @@ cloud:
                      producer:
                        header-mode: raw  #cause skip parsing header for middlewares that do not support header
 
+
 in recource/config/application.yml file :
-cloud:
+
+
+    cloud:
             stream:
                 kafka:
                  streams:
@@ -49,7 +53,7 @@ To start your application in the dev profile, simply run:
     ./mvnw
     
 You can just hit this url for sending message from producer :
-http://localhost:8881/api/review/%22B072QG8BX6%22
+http://localhost:8881/api/review/"testcode"
 
     
 
